@@ -14,6 +14,6 @@ export class Decrement implements Action {
   readonly type = ActionTypes.Decrement;
 }
 
-export class Rest implements Action {
+export class Reset implements Action {
   readonly type = ActionTypes.Reset;
 }
